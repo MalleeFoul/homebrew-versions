@@ -2,7 +2,7 @@ class LibadwaitaAT14 < Formula
   desc "Building blocks for modern adaptive GNOME applications"
   homepage "https://gnome.pages.gitlab.gnome.org/libadwaita/"
   url "https://download.gnome.org/sources/libadwaita/1.4/libadwaita-1.4.beta.tar.xz"
-  sha256 "c9ebf05d16954a4b4d1c26ea87e52f662346d8fa90b70f8165bead0721a1ed10"
+  sha256 "5b6a0e51fd7b6273564ce937a9d302ca683e61f05791b09a36a881d3952128a4"
   license "LGPL-2.1-or-later"
   keg_only :versioned_formula
 
