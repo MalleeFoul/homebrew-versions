@@ -12,6 +12,7 @@ class Gtk4AT4130 < Formula
   end
 
   depends_on "docbook" => :build
+  depends_on "cmake" => :build
   depends_on "docbook-xsl" => :build
   depends_on "docutils" => :build
   depends_on "gobject-introspection" => :build
