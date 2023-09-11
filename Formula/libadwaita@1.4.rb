@@ -21,6 +21,8 @@ class LibadwaitaAT14 < Formula
   depends_on "pkg-config" => [:build, :test]
   depends_on "vala" => :build
   depends_on "gtk4"
+  depends_on "appstream-glib"
+  depends_on "cmake"
 
   def install
     system "meson", "setup", "build", "-Dtests=false", *std_meson_args

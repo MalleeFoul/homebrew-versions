@@ -12,7 +12,6 @@ class Gtk4AT4130 < Formula
   end
 
   depends_on "docbook" => :build
-  depends_on "cmake" => :build
   depends_on "docbook-xsl" => :build
   depends_on "docutils" => :build
   depends_on "gobject-introspection" => :build
@@ -29,7 +28,6 @@ class Gtk4AT4130 < Formula
   depends_on "libpng"
   depends_on "libtiff"
   depends_on "pango"
-  depends_on "appstream-glib"
 
   uses_from_macos "libxslt" => :build # for xsltproc
   uses_from_macos "cups"
