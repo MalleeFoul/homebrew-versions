@@ -21,7 +21,7 @@ class LibadwaitaAT14 < Formula
   depends_on "pkg-config" => [:build, :test]
   depends_on "vala" => :build
   depends_on "gtk4"
-  depends_on "appstream-glib" => :build
+  depends_on "malleefoul/zrythm-reqs/appstream"
   depends_on "cmake"
 
   def install
