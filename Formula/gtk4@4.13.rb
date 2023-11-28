@@ -1,15 +1,15 @@
-class Gtk4AT4130 < Formula
+class Gtk4AT413 < Formula
   desc "Toolkit for creating graphical user interfaces"
   homepage "https://gtk.org/"
   url "https://download.gnome.org/sources/gtk/4.13/gtk-4.13.0.tar.xz"
   sha256 "0e2e928a271ac5ef9c95d891a2b9a8c46df9598d12efd9ccfa31695e88cab6aa"
   license "LGPL-2.1-or-later"
-  keg_only "IDK what I'm doing so better not trust it lmao"
-
-  livecheck do
-    url :stable
-    regex(/gtk[._-](4\.([0-13]\d*?)?[02468](?:\.\d+)*?)\.t/i)
-  end
+  # keg_only "IDK what I'm doing so better not trust it lmao"
+  #
+  # livecheck do
+  #   url :stable
+  #   regex(/gtk[._-](4\.([0-13]\d*?)?[02468](?:\.\d+)*?)\.t/i)
+  # end
 
   depends_on "docbook" => :build
   depends_on "docbook-xsl" => :build
